@@ -8,10 +8,11 @@ const links = [
     { name: 'Contact Us', href: '#join' },
 ]
 const stats = [
-    { name: 'Products Categories', value: '10+' },
-    { name: 'Source Countries', value: '50+' },
-    { name: 'Customer Support', value: '24/7' },
-    { name: 'Quanlity Assurance', value: '100%' },
+    { name: 'We help businesses grow and scale, not just sell to consumers.', value: 'Reseller-Focused' },
+    { name: 'Direct sourcing from manufacturers reduces costs and increases profits.', value: 'No Middlemen' },
+    { name: 'Only verified, reliable manufacturers are on our platform.', value: 'Trusted Suppliers' },
+    { name: 'Our logistics network ensures your goods arrive on time.', value: 'Faster & Safer Shipping' },
+    { name: 'Halal financing and bulk order programs support small businesses.', value: 'Flexible Payment Options' },
 ]
 
 
@@ -51,8 +52,7 @@ export default function About() {
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Who We Are</h2>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
-                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                        fugiat veniam occaecat fugiat.
+                        Z9Trade is a wholesale e-commerce platform that connects African resellers with trusted Chinese suppliers, making it easy to import phones, fashion, accessories, and more at competitive prices. Our goal is to remove barriers to international trade by offering a secure, affordable, and reliable supply chain.
                     </p>
                 </div>
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -65,7 +65,7 @@ export default function About() {
                             </Button>
                         ))}
                     </div>
-                    <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+                    <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-5">
                         {stats.map((stat) => (
                             <div key={stat.name} className="flex flex-col-reverse gap-1">
                                 <dt className="text-base/7 text-gray-300">{stat.name}</dt>

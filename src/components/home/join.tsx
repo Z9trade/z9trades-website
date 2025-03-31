@@ -9,8 +9,7 @@ export default function Join() {
                     <div className="max-w-xl lg:max-w-lg">
                         <h2 className="text-4xl font-semibold tracking-tight text-white">Join our waiting Comunity</h2>
                         <p className="mt-4 text-lg text-gray-300">
-                            Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt
-                            dolore.
+                            Join Z9Trade today and grow your business! 🚀
                         </p>
                         <div className="mt-6 flex max-w-md gap-x-4">
                             <label htmlFor="email-address" className="sr-only">

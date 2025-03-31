@@ -2,27 +2,33 @@ import { ShoppingCartIcon, DocumentCheckIcon, CurrencyDollarIcon, ClockIcon } fr
 
 const features = [
     {
-        name: 'Bulk Imports',
+        name: 'Wholesale Imports ',
         description:
-            'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+            'Get access to high-quality phones, accessories, clothing, kitchenware, and more at factory prices.',
         icon: ShoppingCartIcon,
     },
     {
-        name: 'Custom Product Import',
+        name: 'Reliable Shipping',
         description:
-            'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+            'We partner with trusted third-party logistics providers to ensure fast, secure delivery.',
         icon: DocumentCheckIcon,
     },
     {
-        name: 'Business Financing',
+        name: 'Halal Compliant Business Loans',
         description:
-            'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+            'hrough our third-party financial partners, resellers can access Shariah-compliant financing to grow their businesses.',
         icon: CurrencyDollarIcon,
     },
     {
-        name: 'Buy Now pay Later',
+        name: 'Joint Order Program',
         description:
-            'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+            'Team up with other resellers to place bulk orders, lowering costs and maximizing profit.',
+        icon: ClockIcon,
+    },
+    {
+        name: 'VIP Support & Business Growth',
+        description:
+            'Early users enjoy exclusive discounts, priority customer support, and mentorship opportunities.',
         icon: ClockIcon,
     },
 ]
@@ -36,9 +42,8 @@ export default function Services() {
                     <p style={{ color: "#610e00" }} className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
                         Services We Excel in delivering
                     </p>
-                    <p className="mt-6 text-lg/8 text-gray-600" style={{ color: "rgb(224, 120, 0)" }}>
-                        Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-                        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+                    <p className="mt-6 text-lg/7 text-gray-600" style={{ color: "rgb(224, 120, 0)" }}>
+                        We are specially dedicated to providing a seamless and efficient wholesale import experience for African resellers. Our platform connects you with trusted suppliers, ensuring you have access to the best products at competitive prices. We are committed to helping you grow your business and succeed in the global market. Some of our services include:
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
