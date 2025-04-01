@@ -34,10 +34,9 @@ export default function HeroSection() {
                     </div>
                     <div className="text-center">
                         <h1 style={{ color: "#610e00" }} className="text-5xl font-semibold tracking-tight text-balance sm:text-7xl">
-                            Z9Trades
+                            Your Trusted Wholesale Partner
                         </h1>
                         <p style={{ color: "#de3a1d" }} className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                            Your Trusted Wholesale Partner
                             We help resellers import affordable, high-quality products from China to Africa with trusted suppliers, secure transactions, and reliable logistics.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">

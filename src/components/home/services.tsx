@@ -39,9 +39,9 @@ export default function Services() {
         <div id='services' className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
-                    <h2 className="text-base/7 font-semibold " >what we do</h2>
-                    <p style={{ color: "#610e00" }} className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
-                        Services We Excel in delivering
+                    <h2 className="text-base/7 font-semibold uppercase" >what we do</h2>
+                    <p style={{ color: "#610e00" }} className="mt-2 text-4xl capitalize font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
+                        Services We Excel in Delivering
                     </p>
                     <p className="mt-6 text-lg/7 text-gray-600" style={{ color: "rgb(224, 120, 0)" }}>
                         We are specially dedicated to providing a seamless and efficient wholesale import experience for African resellers. Our platform connects you with trusted suppliers, ensuring you have access to the best products at competitive prices. We are committed to helping you grow your business and succeed in the global market. Some of our services include:
