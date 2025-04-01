@@ -39,7 +39,7 @@ export default function Join() {
                             </div>
                             <dt className="mt-4 text-base font-semibold text-white">Updates on Launch</dt>
                             <dd className="mt-2 text-base/7 text-gray-300">
-                                Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
+                                Get regular updates on our launch date and features.
                             </dd>
                         </div>
                         <div className="flex flex-col items-start">
@@ -48,7 +48,7 @@ export default function Join() {
                             </div>
                             <dt className="mt-4 text-base font-semibold text-white">No spam</dt>
                             <dd className="mt-2 text-base/7 text-gray-300">
-                                Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
+                                We will only use your email to send you updates about our launch and features.
                             </dd>
                         </div>
                     </dl>

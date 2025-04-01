@@ -1,4 +1,5 @@
-import { ShoppingCartIcon, DocumentCheckIcon, CurrencyDollarIcon, ClockIcon } from '@heroicons/react/24/outline'
+import { ShoppingCartIcon, DocumentCheckIcon, CurrencyDollarIcon, UserGroupIcon } from '@heroicons/react/24/outline'
+import { HandshakeIcon } from 'lucide-react'
 
 const features = [
     {
@@ -14,22 +15,22 @@ const features = [
         icon: DocumentCheckIcon,
     },
     {
-        name: 'Halal Compliant Business Loans',
+        name: 'Halal Business Loans',
         description:
-            'hrough our third-party financial partners, resellers can access Shariah-compliant financing to grow their businesses.',
+            'Through our third-party financial partners, resellers can access Shariah-compliant financing to grow their businesses.',
         icon: CurrencyDollarIcon,
     },
     {
         name: 'Joint Order Program',
         description:
             'Team up with other resellers to place bulk orders, lowering costs and maximizing profit.',
-        icon: ClockIcon,
+        icon: UserGroupIcon,
     },
     {
         name: 'VIP Support & Business Growth',
         description:
             'Early users enjoy exclusive discounts, priority customer support, and mentorship opportunities.',
-        icon: ClockIcon,
+        icon: HandshakeIcon,
     },
 ]
 
