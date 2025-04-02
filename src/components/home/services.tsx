@@ -1,7 +1,7 @@
 import { ShoppingCartIcon, DocumentCheckIcon, CurrencyDollarIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 import { HandshakeIcon } from 'lucide-react'
 
-const features = [
+const services = [
     {
         name: 'Wholesale Imports ',
         description:
@@ -49,15 +49,15 @@ export default function Services() {
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
                     <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-                        {features.map((feature) => (
-                            <div key={feature.name} className="relative pl-16">
+                        {services.map((service) => (
+                            <div key={service.name} className="relative pl-16">
                                 <dt className="text-base/8 font-bold uppercase text-gray-900" style={{ color: "#610e00" }}>
                                     <div style={{ backgroundColor: "#610e00" }} className="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-                                        <feature.icon aria-hidden="true" className="size-6 text-white" />
+                                        <service.icon aria-hidden="true" className="size-6 text-white" />
                                     </div>
-                                    {feature.name}
+                                    {service.name}
                                 </dt>
-                                <dd style={{ color: "rgb(224, 120, 0)" }} className="mt-2 text-base/7 text-gray-600">{feature.description}</dd>
+                                <dd style={{ color: "rgb(224, 120, 0)" }} className="mt-2 text-base/7 text-gray-600">{service.description}</dd>
                             </div>
                         ))}
                     </dl>

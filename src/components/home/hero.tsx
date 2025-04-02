@@ -41,7 +41,7 @@ export default function HeroSection() {
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <Button size='lg' >
-                                <Link href="/login">
+                                <Link href="#join">
                                     Join Our waiting List
                                 </Link>
                             </Button>
